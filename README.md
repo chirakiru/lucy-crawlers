@@ -24,7 +24,7 @@ $ sudo easy_install pip
 And then, install Scrapy
 
 ```bash
-$ pip install scrapy
+$ sudo pip install scrapy
 ```
 
 ## Usage
