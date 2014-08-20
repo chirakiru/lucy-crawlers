@@ -1,6 +1,6 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import Selector
-from calidadaire.items import PollutantsMeasure
+from air_quality.items import PollutantsMeasure
 import re
 
 

@@ -6,14 +6,14 @@
 #     http://doc.scrapy.org/en/latest/topics/settings.html
 #
 
-BOT_NAME = 'calidadaire'
+BOT_NAME = 'air_quality_bot'
 
-SPIDER_MODULES = ['calidadaire.spiders']
-NEWSPIDER_MODULE = 'calidadaire.spiders'
+SPIDER_MODULES = ['air_quality.spiders']
+NEWSPIDER_MODULE = 'air_quality.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'calidadaire (+http://www.yourdomain.com)'
 
 ITEM_PIPELINES = {
-    'calidadaire.pipelines.CalidadairePipeline': 300
+    'air_quality.pipelines.AirQualityPipeline': 300
 }
