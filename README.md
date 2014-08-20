@@ -2,7 +2,7 @@
 
 lucy's web crawler and web scraper.
 
-[lucy](https://github.com/chirakiru/lucy "Code repository") is a tool to visualize in a friendly way truthful information about the status of quality air.
+[lucy](https://github.com/chirakiru/lucy "Code repository") is a tool to visualize in a friendly way truthful information about the status of air pollution.
 
 ## Installation
 
