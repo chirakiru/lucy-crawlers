@@ -30,7 +30,7 @@ $ sudo pip install scrapy
 ## Usage
 
 ```bash
-$ scrapy crawl pollutants
+$ env LCDATABASE=yourdb LCUSER=youruser LCPASSWORD=yourpassword LCHOST=yourhost LCPORT=yourport scrapy crawl pollutants
 ```
 
 Also, you can check [scrapy's documentation](http://doc.scrapy.org/en/latest/index.html).

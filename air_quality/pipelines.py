@@ -16,7 +16,6 @@ class AirQualityPipeline(object):
             password=os.environ.get("LCPASSWORD"),
             host=os.environ.get("LCHOST"),
             port=os.environ.get("LCPORT"))
-        #self.conn = psycopg2.connect(database="d7u09a93mirkvk", user="benycdbsmlqxic", password="hLwRJhI_Og9Bgp_q4dLMtevpJH", host="ec2-54-197-238-242.compute-1.amazonaws.com", port="5432")
 
     def process_item(self, item, spider):
         def cast_as_float(text):
