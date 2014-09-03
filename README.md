@@ -33,4 +33,13 @@ $ sudo pip install scrapy
 $ env LCDATABASE=yourdb LCUSER=youruser LCPASSWORD=yourpassword LCHOST=yourhost LCPORT=yourport scrapy crawl pollutants
 ```
 
+Poor man's scheduler:
+
+```bash
+while [ $((1)) == 1 ]; do
+  env LCDATABASE=yourdb LCUSER=youruser LCPASSWORD=yourpassword LCHOST=yourhost LCPORT=yourport scrapy crawl pollutants
+  sleep 3600
+done
+```
+
 Also, you can check [scrapy's documentation](http://doc.scrapy.org/en/latest/index.html).
